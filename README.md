@@ -5,12 +5,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Feature list
 
- * Admin Login & Logout: 
+ #### Admin Login & Logout: 
    User can log in application by creadential ex username: nikhilk and passwaord: admin.
    after successfull login user will redirect to idea listing page and able to see sign out button in the header after clicking on sign out user will redirect to login page.
  
  
- * Idea Listing for evaluation for logged in user:
+#### Idea Listing for evaluation for logged in user:
    On idea listing page user can see his assigned ideas for evaluation and he can evaluate by clicking Evaluate button on page.
    once user Evaluate any Idea successfully then that idea will not be evaluated by the current user and Evaluate button will be Disabled
 
