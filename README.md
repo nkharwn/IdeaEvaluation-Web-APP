@@ -1,1 +1,1 @@
-# DTCSAngularUI
+# Idea Evaluation Web App
