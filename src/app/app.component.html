@@ -1,0 +1,25 @@
+<div class="top-bar">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 d-md-block d-none">
+          <span class="d-none d-md-inline-block">Idea Evaluation</span>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="d-flex justify-content-md-end justify-content-between">
+            <div *ngIf="title!=''" class="login">
+               
+                <a  href="javascript:void(0)" class="login-btn d-none d-md-inline-block">
+                    <span class="d-none d-md-inline-block">Welcome {{title }}</span>
+                </a>
+                <a  href="javascript:void(0)" class="login-btn d-none d-md-inline-block"  (click)="logout()">
+                    <span class="d-none d-md-inline-block"> Sign Out</span>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<router-outlet></router-outlet>
